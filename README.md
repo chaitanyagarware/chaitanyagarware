@@ -42,10 +42,10 @@ I'm a cybersecurity engineer focused on **detection engineering, cloud security,
 
 | Advisory | Project | Type | Status |
 |----------|---------|------|--------|
-| GHSA-qv97-83w4-ff86 | `vmDeshpande/ai-agent-automation` | Missing ownership checks | ✅ Published |
-| Casdoor CVE | `casdoor/casdoor` | Auth vulnerability | ✅ Published |
-| Advisory #3 | Open-source project | Vulnerability research | ✅ Published |
-| Advisory #4 | Open-source project | Vulnerability research | ✅ Published |
+| [GHSA-xw9q-2mv6-9fr8](https://github.com/fedify-dev/fedify/security/advisories/GHSA-xw9q-2mv6-9fr8) | `fedify-dev/fedify` | Incomplete SSRF mitigation — special-use IPv4 bypass | ✅ Published |
+| [GHSA-fg23-3346-88f5](https://github.com/langroid/langroid/security/advisories/GHSA-fg23-3346-88f5) | `langroid/langroid` | Path traversal in file tools — read/write outside configured dir | ✅ Published |
+| [GHSA-qv97-83w4-ff86](https://github.com/vmDeshpande/ai-agent-automation/security/advisories/GHSA-qv97-83w4-ff86) | `vmDeshpande/ai-agent-automation` | Missing ownership checks — cross-user memory read/deletion | ✅ Published |
+| [GHSA-cm8g-8jfq-887p](https://github.com/vmDeshpande/ai-agent-automation/security/advisories/GHSA-cm8g-8jfq-887p) | `vmDeshpande/ai-agent-automation` | Workflow step path traversal — read/write outside expected dir | ✅ Published |
 
 </div>
 
@@ -104,7 +104,7 @@ I'm a cybersecurity engineer focused on **detection engineering, cloud security,
 ![CVE](https://img.shields.io/badge/CVEs_Found-4+-red?style=flat-square)
 ![Disclosure](https://img.shields.io/badge/Responsible_Disclosure-Active-brightgreen?style=flat-square)
 
-Discovered and responsibly disclosed vulnerabilities in **Casdoor**, **vmDeshpande/ai-agent-automation**, and other open-source projects. 4 published security advisory credits.
+Discovered and responsibly disclosed vulnerabilities in **fedify-dev/fedify** (SSRF bypass), **langroid/langroid** (path traversal), and **vmDeshpande/ai-agent-automation** (2× ownership + path traversal). 4 published GitHub Security Advisory credits.
 
 ---
 

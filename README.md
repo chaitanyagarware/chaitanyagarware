@@ -40,12 +40,15 @@ I'm a cybersecurity engineer focused on **detection engineering, cloud security,
 
 <div align="center">
 
-| Advisory | Project | Type | Status |
-|----------|---------|------|--------|
-| [GHSA-xw9q-2mv6-9fr8](https://github.com/fedify-dev/fedify/security/advisories/GHSA-xw9q-2mv6-9fr8) | `fedify-dev/fedify` | Incomplete SSRF mitigation — special-use IPv4 bypass | ✅ Published |
-| [GHSA-fg23-3346-88f5](https://github.com/langroid/langroid/security/advisories/GHSA-fg23-3346-88f5) | `langroid/langroid` | Path traversal in file tools — read/write outside configured dir | ✅ Published |
-| [GHSA-qv97-83w4-ff86](https://github.com/vmDeshpande/ai-agent-automation/security/advisories/GHSA-qv97-83w4-ff86) | `vmDeshpande/ai-agent-automation` | Missing ownership checks — cross-user memory read/deletion | ✅ Published |
-| [GHSA-cm8g-8jfq-887p](https://github.com/vmDeshpande/ai-agent-automation/security/advisories/GHSA-cm8g-8jfq-887p) | `vmDeshpande/ai-agent-automation` | Workflow step path traversal — read/write outside expected dir | ✅ Published |
+| No. | Advisory | Project | Impact | CVE | Status |
+|-----|----------|---------|--------|-----|--------|
+| 1 | [GHSA-xw9q-2mv6-9fr8](https://github.com/fedify-dev/fedify/security/advisories/GHSA-xw9q-2mv6-9fr8) | `fedify-dev/fedify` | Incomplete SSRF mitigation allowed special-use IPv4 ranges to bypass validation controls | CVE-2026-50131 | Published |
+| 2 | [GHSA-fg23-3346-88f5](https://github.com/langroid/langroid/security/advisories/GHSA-fg23-3346-88f5) | `langroid/langroid` | Path traversal in file tools allowed read/write outside the configured working directory | CVE-2026-50181 | Published |
+| 3 | [GHSA-qv97-83w4-ff86](https://github.com/vmDeshpande/ai-agent-automation/security/advisories/GHSA-qv97-83w4-ff86) | `vmDeshpande/ai-agent-automation` | Missing ownership checks allowed cross-user memory read and deletion through in-memory APIs | CVE-2026-54519 | Published |
+| 4 | [GHSA-cm8g-8jfq-887p](https://github.com/vmDeshpande/ai-agent-automation/security/advisories/GHSA-cm8g-8jfq-887p) | `vmDeshpande/ai-agent-automation` | Workflow file step path traversal allowed read/write outside the expected directory | CVE-2026-54520 | Published |
+| 5 | [GHSA-cvpc-hccg-wmw4](https://github.com/verbb/formie/security/advisories/GHSA-cvpc-hccg-wmw4) | `verbb/formie` | Missing authorization in administrative settings allowed low-privileged Control Panel users to modify plugin configuration |  | Published |
+| 6 | [GHSA-5p3m-vhh6-9236](https://github.com/eidetic-labs/stigmem/security/advisories/GHSA-5p3m-vhh6-9236) | `eidetic-labs/stigmem` | Blind SSRF via unvalidated webhook subscription delivery address |  | Published |
+| 7 | [GHSA-cwv4-h3j5-w3cf](https://github.com/plabayo/rama/security/advisories/GHSA-cwv4-h3j5-w3cf) | `plabayo/rama` | Stored XSS in ServeDir HTML directory listing through unescaped file names and URI paths |  | Published |
 
 </div>
 

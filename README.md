@@ -55,6 +55,20 @@ I'm a cybersecurity engineer focused on **detection engineering, cloud security,
 [![Security Advisories](https://img.shields.io/badge/GitHub_Security_Advisories-4_Credits-red?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chaitanyagarware?tab=achievements)
 ![Responsible Disclosure](https://img.shields.io/badge/Disclosure-Responsible-brightgreen?style=for-the-badge&logo=security&logoColor=white)
 
+### Featured advisory repositories
+
+| CVE | Landing repo | Primary advisory |
+|-----|--------------|------------------|
+| CVE-2026-50131 | [CVE-2026-50131](https://github.com/chaitanyagarware/CVE-2026-50131) | [GHSA-xw9q-2mv6-9fr8](https://github.com/fedify-dev/fedify/security/advisories/GHSA-xw9q-2mv6-9fr8) |
+| CVE-2026-50181 | [CVE-2026-50181](https://github.com/chaitanyagarware/CVE-2026-50181) | [GHSA-fg23-3346-88f5](https://github.com/langroid/langroid/security/advisories/GHSA-fg23-3346-88f5) |
+| CVE-2026-54519 | [CVE-2026-54519](https://github.com/chaitanyagarware/CVE-2026-54519) | [GHSA-qv97-83w4-ff86](https://github.com/vmDeshpande/ai-agent-automation/security/advisories/GHSA-qv97-83w4-ff86) |
+| CVE-2026-54520 | [CVE-2026-54520](https://github.com/chaitanyagarware/CVE-2026-54520) | [GHSA-cm8g-8jfq-887p](https://github.com/vmDeshpande/ai-agent-automation/security/advisories/GHSA-cm8g-8jfq-887p) |
+
+### Direct research links
+
+- [OpenSOC-AI: Democratizing Security Operations with Parameter Efficient LLM Log Analysis](https://arxiv.org/abs/2604.26217)
+- [When the Ruler is Broken: Parsing-Induced Suppression in LLM-Based Security Log Evaluation](https://arxiv.org/abs/2605.07293)
+
 ---
 
 ## 🏅 Certifications
